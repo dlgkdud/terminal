@@ -12,21 +12,45 @@
 
       gtag('config', 'UA-155195942-1');
     </script>
+    <style>
+      #grid1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      #grid1 p{
+        margin:0px;
+        padding:0px;
+      }
+      #grid1 a{
+        margin:0px;
+        padding:0px;
+      }
+      #grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      #grid2 p{
+        text-align: center;
+        margin:0px;
+        padding:0px;
+      }
+    </style>
   </head>
 
   <body target="_blank" link="blue" vlink="red">
     <h1>Terminal<h1>
     <br>
     <p style='font-size:15px'>Choose what you want</p>
+    <div id="grid1">
+      <p><a href="http://google.com" title="google" ><img src="google.png" width="100%" href="http://google.com"></a></p>
 
-    <p><a href="http://google.com" title="google" ><img src="google.png" width="50%" href="http://google.com"></a></p>
+      <p><a href="http://naver.com" title="naver"><img src="naver.png" width="100%"></a></p>
 
-    <p><a href="http://naver.com" title="naver"><img src="naver.png" width="50%"></a></p>
-
-    <p><a href="http://nate.com" title="nate""><img src="nate.png" width="50%"></a></p>
-
-    <p style='font-size:15px'><a href="https://comic.naver.com/webtoon/detail.nhn?titleId=670143&no=206&weekday=wed">헬퍼 01.01</a></p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/O6jjb2w5das" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/AHaDXvA7Esg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><a href="http://nate.com" title="nate"><img src="nate.png" width="100%"></a></p>
+    </div>
+    <div id="grid2">
+      <p><iframe width="336px" height="189" src="https://www.youtube.com/embed/O6jjb2w5das" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <p><iframe width="336px" height="189" src="https://www.youtube.com/embed/AHaDXvA7Esg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
   </body>
 </html>
